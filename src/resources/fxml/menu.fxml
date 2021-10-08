@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cvut.fel.dbs.lib.view.MenuController">
+   <children>
+      <Button fx:id="create" layoutX="66.0" layoutY="59.0" mnemonicParsing="false" onAction="#goToCreateCestujici" text="CREATE" />
+      <Button fx:id="read" layoutX="66.0" layoutY="102.0" mnemonicParsing="false" onAction="#goToReadCestujici" text="READ" />
+      <Button fx:id="update" layoutX="66.0" layoutY="150.0" mnemonicParsing="false" onAction="#goToUpdateCestujici" text="UPDATE" />
+      <Button fx:id="delete" layoutX="66.0" layoutY="200.0" mnemonicParsing="false" onAction="#goToDeleteCestujici" text="DELETE" />
+      <Text layoutX="57.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cestujici">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="219.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jizda">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button fx:id="jizda_add" layoutX="236.0" layoutY="59.0" mnemonicParsing="false" onAction="#goToAddCestujiciForJizda" text="ADD cestujici" />
+      <Button fx:id="jizda_read" layoutX="236.0" layoutY="102.0" mnemonicParsing="false" onAction="#goToReadCestujiciForJizda" text="READ cestujici" />
+      <Button fx:id="jizda_delete" layoutX="236.0" layoutY="150.0" mnemonicParsing="false" onAction="#goToDeleteCestujiciForJizda" text="DELETE cestujici" />
+   </children>
+</AnchorPane>

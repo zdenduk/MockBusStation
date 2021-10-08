@@ -1,0 +1,10 @@
+package cvut.fel.dbs.lib.view;
+
+/**
+ * State of application.
+ */
+public enum State {
+    MENU,
+    CREATE_CESTUJICI, READ_CESTUJICI, UPDATE_CESTUJICI,
+    DELETE_CESTUJICI_FOR_JIZDA, READ_CESTUJICI_FOR_JIZDA, ADD_CESTUJICI_FOR_JIZDA, DELETE_CESTUJICI
+}
